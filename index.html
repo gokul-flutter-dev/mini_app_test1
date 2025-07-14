@@ -1,14 +1,14 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + Omi + TS</title>
-    <script type="module" crossorigin src="./assets/index-27a8accc.js"></script>
-  </head>
-  <body>
-    <div id="app"></div>
-    
-  </body>
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+  <script src="./react-miniapp.umd.js"></script>
+</head>
+<body>
+  <div id="root"></div>
+  <script>
+    ReactMiniApp.mount(document.getElementById('root'));
+  </script>
+</body>
 </html>
